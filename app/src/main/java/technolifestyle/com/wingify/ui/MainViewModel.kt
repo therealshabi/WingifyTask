@@ -7,7 +7,6 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import technolifestyle.com.wingify.AppConfig
-import technolifestyle.com.wingify.NetworkChangeReceiver
 import technolifestyle.com.wingify.api.MockApiService
 import technolifestyle.com.wingify.db.ElementDatabase
 import technolifestyle.com.wingify.db.ElementsDao
@@ -20,8 +19,7 @@ import timber.log.Timber
 import java.util.concurrent.Executors
 
 class MainViewModel(
-    application: Application,
-    private val networkChangeReceiver: NetworkChangeReceiver
+    application: Application
 ) : AndroidViewModel(application), Callback<ApiResponseModel> {
 
     private val elementsDao: ElementsDao?

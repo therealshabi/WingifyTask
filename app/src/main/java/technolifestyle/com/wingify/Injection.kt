@@ -6,8 +6,8 @@ import technolifestyle.com.wingify.ui.ViewModelFactory
 
 object Injection {
 
-    fun provideViewModel(application: Application, networkChangeReceiver: NetworkChangeReceiver):
+    fun provideViewModel(application: Application):
             ViewModelProvider.Factory {
-        return ViewModelFactory(application, networkChangeReceiver)
+        return ViewModelFactory(application)
     }
 }

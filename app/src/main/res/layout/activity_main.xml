@@ -24,7 +24,7 @@
         android:padding="8dp"
         android:text="Title"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/banner" />
 
@@ -33,8 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:padding="8dp"
-        android:text="Lorem Ipsum"
-        android:textColor="@android:color/black"
+        android:text="Lorem Ipsum Content"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@id/button"
         app:layout_constraintStart_toStartOf="parent"

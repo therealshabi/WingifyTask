@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         viewModel = ViewModelProviders.of(
             this,
-            Injection.provideViewModel(application, networkChangeReceiver)
+            Injection.provideViewModel(application)
         )
             .get(MainViewModel::class.java)
 
